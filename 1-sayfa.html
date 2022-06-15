@@ -1,66 +1,141 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+<title>Challange</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-table, th, td {
-  border:1px solid black;
+  
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  display: block;
+  width: 100px;
+  background-color: hsla(120, 60%, 70%, 0.3);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body 
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: #e93873;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 25px;
+  height: 600px; 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  background-color: #f1f1f1;
+  padding: 25px;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .column {
+    width: 300;
+  }
 }
 </style>
+</head>
+<body>
+  
+  <ul>
+    <li><a href="#Anasayfa">Anasayfa</a></li>
+    <li><a href="#Programlama Dilleri">Programlama Dilleri</a></li>
+    <li><a href="#Pomodoro">Pomodoro</a>
+    <li><a href="#Profil">Profil</a></li>
+  </ul>
+  <html>
+<head>
+<style>
+#navlist {
+  position: relative;
+}
+
+#navlist li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: 0;
+}
+
+#navlist li, #navlist a {
+  height: 44px;
+  display: block;
+}
+
+#home {
+  left: 0px;
+  width: 46px;
+  background: url('img_navsprites.gif') 0 0;
+}
+
+#prev {
+  left: 63px;
+  width: 43px;
+  background: url('img_navsprites.gif') -47px 0;
+}
+
+#next {
+  left: 129px;
+  width: 43px;
+  background: url('img_navsprites.gif') -91px 0;
+}
+</style>
+</head>
 <body>
 
-<h2>Challenge Başlat</h2>
-<input type="checkbox" id="HTML" name="HTML" value="HTML">
-<a href="https://www.youtube.com/watch?v=cnRljx03isc">100DAYOFHTML</a>
-    <label for="HTML">#100DAYSOFHTML</label><br>
-  </td>
-  <td>
-    <input type="checkbox" id="PYHTON" name="PYHTON" value="PYHTON">
-    <a href="https://www.youtube.com/watch?v=i3-PQ4CkU8s">100DAYSOFPYHTON</a>
-      <label for="PYHTON">#100DAYSOFPYHTON</label><br>
-    </td>
+<ul id="navlist">
+  <li id="home"><a href="default.asp"></a></li>
+  <li id="prev"><a href="css_intro.asp"></a></li>
+  <li id="next"><a href="css_syntax.asp"></a></li>
+</ul>
 
-  <td>
-    <input type="checkbox" id="GO" name="GO" value="GO">
-    <a href="https://youtu.be/qJqx7dxWW8I">100DAYSOFGO</a>
-      <label for="GO">#100DAYSOFGO</label><br></td>
-      
+</body>
+</html>
 
-<table style="width:100%">
-  <tr>
-    <th>#100DAYSOFCODE</th>
-    <th>#45DAYSOFCODE</th>
-    <th>#30DAYSOFCODE</th>
-  
-</tr>
-  </tr>
-  <tr>
-    <td>sıfırdan başlayanlar için</td>
+<h2>Yazılım Blogunuza Hoş Geldiniz Eğlenirken Bir Yandan Planlı İlerlemeye Ne Dersiniz </h2>
 
-    <td>sıfırdan başlayanlar için</td>
-    
-    <td>sıfırdan başlayanlar için</td>
+<p>Buradan kendinize uygun challengeları seçerek ilerlemenizi kontrol edebilirsiniz.</p>
+<h4>O zaman LET'S GO!</h4>
 
-  </tr>
+<div class="Challange Başlat">
+  <h2>Challenge Seç</h2>
+</div>
 
-  <tr>
-    <td>orta seviyede olanlar için</td>
+<div class="row">
+  <div class="column" style="background-color:rgb(217, 164, 193);">#100daysofcode</div>
+  <div class="column" style="background-color:rgb(213, 102, 163);">#45daysofcode</div>
+  <div class="column" style="background-color:rgb(161, 54, 113);">#30daysofcode</div>
+</div>
 
-    <td>orta seviyede olanlar için</td>
-   
-    <td>orta seviyede olanlar için</td>
-
-  </tr>
-
-  <tr>
-    <td>seniorum daha da senior olayım diyenler için</td>
-
-    <td>seniorum daha da senior olayım diyenler için</td>
-    <td>seniorum daha da senior olayım diyenler için</td>
-
-  </tr>
-</table>
-
-
-
+<div class="footer">
+  <p>Telif hakları bana aittir.</p>
+</div>
 
 </body>
 </html>
@@ -100,19 +175,6 @@ table, th, td {
 
 
 
-
-
-
-
-
-
-
-
-
-</table>
-    
-</body>
-</html>
 
 
 
