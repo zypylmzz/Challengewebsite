@@ -4,139 +4,153 @@
 <title>Challange</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-  
-  ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-li a {
-  display: block;
-  width: 100px;
-  background-color: hsla(120, 60%, 70%, 0.3);
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body 
-{
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.header {
-  background-color: #e93873;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-}
-
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 25px;
-  height: 600px; 
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.footer {
-  background-color: #f1f1f1;
-  padding: 25px;
-  text-align: center;
-}
-
-@media (max-width: 800px) {
-  .column {
-    width: 300;
-  }
-}
-</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style1.css"/>
+<link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css>
 </head>
 <body>
-  </ul>
   <html>
-<head>
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-    
-    body {
-      margin: 0;
-    }
-    
-    .header {
-      background-color: #f1f1f1;
-      padding: 20px;
-      text-align: center;
-    }
-    
-    .topnav {
-      overflow: hidden;
-      background-color: #333;
-    }
-    
-    .topnav a {
-      float: left;
-      display: block;
-      color: #f2f2f2;
-      text-align: center;
-      padding: 8px 10px;
-      text-decoration: none;
-    }
-  
-    .topnav a:hover {
-      background-color: #ddd;
-      color: black;
-    }
-    </style>
-    </head>
-    <body>
-    
-    <div class="header">
-      <h1>Challange Başlat</h1>
-         
-    <div class="topnav">
-      <a href="#Anasayfa">Anasayfa</a>
-      <a href="#Programlama Dilleri">Programlama Dilleri</a>
-      <a href="#Pomodoro">Pomodoro</a>
-      <a href="#Profil">Profil</a>
+    <body id="header">
+    <a href="header" id="backtotop">
+      <i class="fa fa-chevron-circle-up"></i>
+    </a>
+    <header class="main-header">
+      <a href="#" class="main-header__logo">CodeSecret</a>
+      <nav class="main-nav">
+          <ul class="main-nav__items">
+            <li class="main-nav__items">
+              <a href="#Profile">Profile</a>
+            </li>
+
+            <li class="main-nav__items">
+              <a href="#Programming Languages">Programming Languages</a>
+            </li>
+
+            <li class="main-nav__items">
+              <a href="#Pomodoro">Pomodoro</a>
+            </li>
+
+            <li class="main-nav__items">
+              <a href="#Sign-in">Sign in</a>
+            </li>
+          
+          </ul>
+        </nav>
+    </header>
+
+    <main> 
+      <section id="showcase">
+        <h1>From Zero To Hero</h1>
+      </section>
+
+      <section id="choose-your-challenge">
+        <div class="row">
+          <h1>Choose your challenge</h1>
+          <p>Discover, learn and start your software adventure</p>
+        </div>
+
+        <div class="row">
+          <div class="icon-box col-3">
+            <i class="fab fa-python"></i>
+            <h5>Python Challenge</h5>
+            <p>You can find everything about Python in this area. You can meet people who start challenges like you. Let's code.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="icon-box col-3">
+          <i class="fa-solid fa-chess-rook"></i>
+          <h5>Frontend Challenge</h5>
+          <p>You can find everything about Frontend in this area. You can meet people who start challenges like you. Let's code.</p>
+      </div>
     </div>
-      <p class=""></p>{Yazılım Blogunuza Hoş Geldiniz Eğlenirken Bir Yandan Planlı İlerlemeye Ne Dersiniz
-        font-size;
-      }
-      <p>Buradan kendinize uygun challengeları seçerek ilerlemenizi kontrol edebilirsiniz.</p>
-     <h4>O zaman LET'S GO!</h4>
+
+    <div class="row">
+      <div class="icon-box col-3">
+        <i class="fa-solid fa-chess-king"></i>
+        <h5>Backend Challenge</h5>
+        <p>You can find everything about Backend in this area. You can meet people who start challenges like you. Let's code.</p>
     </div>
-    
-    </body>
-    </html>
-</head>
+  </div>
 
-</html>
+  <div class="row">
+    <div class="icon-box col-3">
+      <i class="fa-solid fa-chess-queen"></i>
+      <h5>DevOps Challenge</h5>
+      <p>You can find everything about DevOps in this area. You can meet people who start challenges like you. Let's code.</p>
+  </div>
 
-<div class="Challange Başlat">
-  <h2>Challenge Seç</h2>
+  <div class="row">
+    <div class="icon-box col-3">
+      <i class="fa-solid fa-chess-bishop"></i>
+      <h5>Angular Challenge</h5>
+      <p>You can find everything about Angular in this area. You can meet people who start challenges like you. Let's code.</p>
+  </div>
+
+  <div class="row">
+    <div class="icon-box col-3">
+      <i class="fa-solid fa-chess-knight"></i>
+      <h5>React Challenge</h5>
+      <p>You can find everything about React in this area. You can meet people who start challenges like you. Let's code.</p>
+  </div>
+
+  <div class="row">
+    <div class="icon-box col-3">
+      <i class="fa-solid fa-chess-rook"></i>
+      <h5>GO Challenge</h5>
+      <p>You can find everything about GO in this area. You can meet people who start challenges like you. Let's code.</p>
+  </div>
 </div>
 
-<div class="row">
-  <div class="column" style="background-color:rgb(217, 164, 193);">#100daysofcode</div>
-  <div class="column" style="background-color:rgb(213, 102, 163);">#45daysofcode</div>
-  <div class="column" style="background-color:rgb(161, 54, 113);">#30daysofcode</div>
-</div>
 
-<div class="footer">
-  <p>Telif hakları bana aittir.</p>
-</div>
 
+</section>
+<section id="middle-of-page">
+  <div class="row">
+    <div class="col-2 middle-of-page__left"></div><div class="col-2 middle-of-page__right">
+      <h3>How about sharing your adventure on Twitter?</h3>
+      <a href="https://twitter.com/">Twitter</a>
+    </div>
+  </div>
+</section>
+
+<section class="footer">
+  <div class="social">
+     <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+     <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+     <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+     <a href="https://workspace.google.com/"><i class="fa-solid fa-inbox"></i></a>
+    </div>
+
+    <ul class="list">
+      <li> 
+        <a href="#">Home</a>
+      </li>
+
+      <li> 
+        <a href="#">Services</a>
+      </li>
+
+      <li> 
+        <a href="#">About</a>
+      </li>
+
+      <li> 
+        <a href="#">Terms</a>
+      </li>
+
+      <li> 
+        <a href="#">Privacy Terms</a>
+      </li>
+    </ul>
+    <p class="copyright">
+      CodeSecret @2022 </p>
+</section>
+
+
+</main>
 </body>
 </html>
 
